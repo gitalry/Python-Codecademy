@@ -1,0 +1,34 @@
+__author__ = 'shahabedinhassani'
+
+
+# not is evaluated first
+# and is evaluated next
+# or is evaluated last
+
+bool_one = False or not True and True
+print "False or not True and True: " + str(bool_one)
+
+bool_two = False and not True or True
+print "False and not True or True : " + str(bool_two)
+
+bool_three = True and not (False or False)
+print "True and not (False or False) is : " + str(bool_three)
+
+bool_four = not not True or False and not True
+print "not not True or False and not True is : " + str(bool_four)
+
+bool_five = False or not (True and True)
+print "False or not (True and True) is : " + str(bool_five)
+
+bool_six = True or not False and False
+print "True or not False and False is: " + str(bool_six)
+
+
+
+""" False or not True and True: False
+False and not True or True : True
+True and not (False or False) is : True
+not not True or False and not True is : True
+False or not (True and True) is : False
+True or not False and False is: True
+"""
