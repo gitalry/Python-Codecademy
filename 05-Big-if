@@ -1,0 +1,9 @@
+# Make sure that the_flying_circus() returns True
+def the_flying_circus():
+    if 1 < 100:
+        return False
+    elif True and False != True:
+        return True
+    else:
+        return False
+     
