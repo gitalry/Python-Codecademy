@@ -1,3 +1,5 @@
+
+--------------------------------- this correct but does not work on codecademy
 def cube(number):
     new_number =number**3
     print "cube of the number is %d " %(new_number)
@@ -12,4 +14,13 @@ def by_three(number):
         False
     
     
+    -------------------------try this
     
+    def cube(number):
+        return number**3
+    def by_three(number):
+        if number % 3 == 0 :
+           return cube(number)
+        else :
+            return False
+         
