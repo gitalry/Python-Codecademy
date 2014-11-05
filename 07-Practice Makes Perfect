@@ -1,0 +1,15 @@
+def cube(number):
+    new_number =number**3
+    print "cube of the number is %d " %(new_number)
+    return
+
+def by_three(number):
+    if number%3 == 0:
+        print "n is divisible by 3"
+        cube(number)
+    else:
+        print "n is not divisible by 3"
+        False
+    
+    
+    
